@@ -1,0 +1,173 @@
+{
+        "intents": [
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "Hi",
+                    "How are you",
+                    "Is anyone there?",
+                    "Hello",
+                    "Good day"
+                ],
+                "responses": [
+                    "Hello, thanks for visiting",
+                    "Good to see you again",
+                    "Hi there, how can I help?"
+                ]
+            },
+            {
+                "tag": "goodbye",
+                "patterns": [
+                    "Bye",
+                    "See you later",
+                    "Goodbye"
+                ],
+                "responses": [
+                    "See you later, thanks for visiting",
+                    "Have a nice day",
+                    "Bye! Come back again soon."
+                ]
+            },
+            {
+                "tag": "thanks",
+                "patterns": [
+                    "Thanks",
+                    "Thank you",
+                    "That's helpful"
+                ],
+                "responses": [
+                    "Happy to help!",
+                    "Any time!",
+                    "My pleasure"
+                ]
+            },
+            {
+                "tag": "chatbot",
+                "patterns": [
+                    "Who built this chatbot?",
+                    "Tell me about Chatbot",
+                    "Who developed this Chatbot?"
+                ],
+                "responses": [
+                    "Hi, I am a Chatbot designed by Ankit.",
+                    "Thanks for asking. I am designed by Ankit Kumar.",
+                    "I am a chatbot. I was designed by Ankit."
+                ]
+            },
+            {
+                "tag": "name",
+                "patterns": [
+                    "What is the name of this Chatbot?",
+                    "Tell me your name?",
+                    "Do you have a name?"
+                ],
+                "responses": [
+                    "Hi, I am Turing.",
+                    "Thanks for asking. My name is Turing.",
+                    "You can call me Turing. I was named after the famous scientist who remained unknown for 50 years."
+                ]
+            },
+            {
+                "tag": "location",
+                "patterns": [
+                    "What is your location?",
+                    "Where are you located?",
+                    "What is your address?"
+                ],
+                "responses": [
+                    "I was trained and developed in Bhubaneswar, India",
+                    "You can visit Bhubaneswar, India to meet me and my Source Code",
+                    "Thanks for your Interest. I live in India."
+                ]
+            },
+            {
+                "tag": "connect",
+                "patterns": [
+                    "Give me your social media accounts link",
+                    "Where can we connect?",
+                    "How can I reach out to you?",
+                    "Is there any way we can connect?"
+                ],
+                "responses": [
+                    "You can connect with me on Linkedin \n Linkedin - https://www.linkedin.com/in/ankit-kumar-5b9732283", 
+                    "You can find me on Github \n Github - https://github.com/Zetaaaaaa",
+                    "You can email me at ankjsr938@gmail.com "
+                ]
+            },
+            {
+                "tag": "movies",
+                "patterns": [
+                    "Which is your favorite movie?",
+                    "Suggest me some movies",
+                    "Recommend movies"
+                ],
+                "responses": [
+                    "Try Fight Club!",
+                    "Have you seen Equilibrium?",
+                    "If you wish to watch a good trilogy, you should try Godfather trilogy!",
+                    "If you like Superheroes, Dark Knight trilogy is a must watch for you!",
+                    "Se7en is an amazing thriller!",
+                    "Shawshank Redemption is one of the best movies ever!",
+                    "If you like Bollywood, you should try Swades!",
+                    "Anand is probably the best that Bollywood ever came up with!"
+                ]
+            },
+            {
+                "tag": "about",
+                "patterns": [
+                    "Who are you?",
+                    "Tell me about Yourself",
+                    "What is this?"
+                ],
+                "responses": [
+                    "Hi, I am Ankit. Nice to meet you. I made this chatbot for a project for my Tools and Techniques lab.",
+                    "Thanks for asking. I am Ankit Kumar, 3rd year CS Undergrad from KIIT University."
+                ]
+            },
+            {
+                "tag": "jokes",
+                "patterns": [
+                    "Tell me a joke",
+                    "Do you know any jokes?",
+                    "Make me laugh"
+                ],
+                "responses": [
+                    "Why don't scientists trust atoms? Because they make up everything!",
+                    "What do you get when you cross a snowman and a vampire? Frostbite!",
+                    "I'm reading a book on anti-gravity. It's impossible to put down!",
+                    "Why did the scarecrow win an award? Because he was outstanding in his field!"
+                ]
+            },
+            {
+                "tag": "music",
+                "patterns": [
+                    "Recommend some music",
+                    "What's your favorite song?",
+                    "Play me some music"
+                ],
+                "responses": [
+                    "I can't play music, but I can recommend some great songs! How about 'Bohemian Rhapsody' by Queen?",
+                    "One of my favorite songs is 'Hotel California' by The Eagles.",
+                    "Have you heard 'Stairway to Heaven' by Led Zeppelin? It's a classic!",
+                    "You should try 'Another one bites the dust' by Queen!",
+                    "Have you ever given a try to 'Talk' by Hozier?",
+                    "I would suggest 'Heaven and Hell' by Kanye West!",
+                    "You should make an attempt at 'In The End' by Linkin Park!"
+                ]
+            },
+            {
+                "tag": "food",
+                "patterns": [
+                    "I'm hungry",
+                    "Recommend some food",
+                    "What's for dinner?"
+                ],
+                "responses": [
+                    "How about ordering some pizza?",
+                    "You could try cooking a simple pasta dish!",
+                    "Have you considered making a sandwich? It's quick and easy!"
+                ]
+            }
+        ]
+    }
+    
